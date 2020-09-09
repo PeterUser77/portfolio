@@ -5,9 +5,12 @@ Portfólio Desenvolvimento Web.
 O controle das tarefas deste projeto será realizado no GitHub.
 
 ## Ícones
-
+<p>
 :package: Nova Funcionalidade
+<br>
 :up: Atualização
-:beatle: Correção de bug
+<br>
+:bug: Correção de bug
+<br>
 :checkered_flag: Release
- 
+ </p>
