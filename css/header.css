@@ -30,6 +30,7 @@ header{
     opacity: 0.3;
     animation: zoom 20s;
 }
+
 /* animação da imagem */
 @keyframes zoom{
     0%{
@@ -41,13 +42,11 @@ header{
 }
 
 /* formatando o texto que fica sobre a foto do header*/
-
 .banner{
     position: absolute;
     top: 15%;
     left: 15%;
 }
-
 
 .banner h1{
     color: #ffffff;
@@ -84,6 +83,11 @@ header{
     opacity: 0;
     animation: moveBanner 0.6s forwards;
 }
+.banner button:hover{
+    background-color: #a6a6a6;
+    transition: 1s;
+}
+
 /* movimentação do banner */
 @keyframes moveBanner{
     0%{
