@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/conhecimentos.css">
     <link rel="stylesheet" href="css/projetos.css">
     <link rel="stylesheet" href="css/contatos.css">
+    <link rel="stylesheet" href="css/footer.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
     <link rel="icon" type="image.png" sizes="32x32" href="assets/favicon-32x32.png">
@@ -29,7 +30,7 @@
         </div>
 
         <!-- Header com imagem e texto de apresentação -->
-        <header>
+        <header id="home">
             <div class="img-wrapper">
                 <img src="assets/bg.jpg" alt="background-image">
             </div>
@@ -45,10 +46,10 @@
         <aside class="sidebar">
             <nav>
                 <ul class="menu">
-                    <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Conhecimento</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
+                    <li class="menu-item"><a href="#home" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
+                    <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#contatos" class="menu-link">Contato</a></li>
                 </ul>
             </nav>
             <div class="social-media">
@@ -59,7 +60,7 @@
         </aside>
 
         <!-- Sessão conhecimentos -->
-        <section class="sessao-conhecimentos">
+        <section class="sessao-conhecimentos" id="conhecimentos">
             <div class="sessao-header">
                 <h1>Conhecimentos</h1>
             </div>
@@ -196,7 +197,7 @@
         </div>
 
         <!-- Contatos -->
-        <section class="sessao-contato">
+        <section class="sessao-contato" id="contatos">
             <div class="contato-wrapper">
                 <div class="contato-left"></div>
                 <div class="contato-right">
@@ -223,6 +224,35 @@
                 </div>
             </div>
         </section>
+        <footer>
+            <div class="footer-content">
+                <p>
+                    Copyright &copy; 2020, ETICA DS - Todos os direitos reservados
+                </p>
+                <div class="social-list">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-envelope-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-phone-square-alt"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <a href="#home" id="link-topo">
+            <i class="fas fa-arrow-up"></i>
+        </a>
 </body>
 <script src="/js/script.js"></script>
 
