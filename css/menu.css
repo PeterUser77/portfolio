@@ -5,7 +5,7 @@
     height: 2rem;
     position: fixed;
     /* faz com que o .hamburguer fique a frente da nossa imagem */
-    z-index: 100;
+    z-index: 160;
     right: 2rem;
     top: 2rem;
     display: flex;
@@ -37,7 +37,8 @@
     top: 0;
     right: -20rem;
     transition: all 0.7s;
-    opacity: 0.5;
+    opacity: 0.9;
+    z-index: 150;
 }
 
 /* interação do menu com JS e CSS */
